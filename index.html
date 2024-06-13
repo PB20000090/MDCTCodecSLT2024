@@ -6,16 +6,16 @@
 </head>
     <body>
     <h2>Sound demos for "MDCTCodec: A Lightweight MDCT-based Neural Audio Codec towards High Sampling Rate and Low Bitrate Scenarios"</h2>
-    <h2>Anonymous submission to Interspeech 2024</h2>
+    <h2>Anonymous submission to SLT 2024</h2>
   
 
     <p>&nbsp;</p>
-    <h2>Section 3.3 Comparison with Baseline Codecs</h2>
+    <h2>Section 4.3 Comparison with Baseline Codecs</h2>
               <p><em><strong>(The sampling rate is 48 kHz)</strong></em><a></a> </p>
               <table>
                 <thead>
                   <tr>
-                    <th colspan="7"><div align="left">Example 1 (p360, male speaker, at 6 kbps) </div></th>
+                    <th colspan="8"><div align="left">Example 1 (p360, male speaker, at 6 kbps) </div></th>
                   </tr>
                   <tr>
                     <th width="192">Raw Audio </th>
@@ -38,20 +38,18 @@
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
+
                   </tr>
                   <tr>
-                    <th>Lyra</th>
                     <th>SoundStream </th>
                     <th>Encodec </th>
                     <th>HiFi-Codec</th>
                     <th>AudioDec</th>
+                    <th>DAC</th>
                     <th>APCodec</th>
                     <th>MDCTCodec</th>
                   </tr>
                   <tr>
-                    <td><audio controls="">
-                        <source src="https://pb20000090.github.io/test/wav/lyra_p360_002_decoded.wav" type="audio/wav">
-                    </audio></td>
                     <td><audio controls="">
                         <source src="https://pb20000090.github.io/test/wav/SS_p360_002_6kbps.wav" type="audio/wav">
                     </audio></td>
@@ -65,6 +63,9 @@
                         <source src="https://pb20000090.github.io/test/wav/AudioDec_p360_002_6kbps.wav" type="audio/wav">
                     </audio></td>
                     <td><audio controls="">
+                        <source src="https://pb20000090.github.io/test/mdctcodec-demo/dac/vctk-6kbps/p360_002.wav" type="audio/wav">
+                    </audio></td>
+                    <td><audio controls="">
                         <source src="https://pb20000090.github.io/test/wav/APCodec_p360_002_6kbps.wav" type="audio/wav">
                     </audio></td>
                     <td><audio controls="">
@@ -76,13 +77,14 @@
               <table>
                 <thead>
                   <tr>
-                    <th colspan="7"><div align="left">Example 1 (p360, male speaker, at 9 kbps) </div></th>
+                    <th colspan="8"><div align="left">Example 1 (p360, male speaker, at 9 kbps) </div></th>
                   </tr>
                   <tr>
                     <th>&nbsp;</th>
                     <th width="192">Raw Audio </th>
                     <th width="192">&nbsp;</th>
                     <th>&nbsp;</th>
+                    <th width="192">&nbsp;</th>
                     <th width="192">&nbsp;</th>
                     <th width="192">&nbsp;</th>
                     <th width="192">&nbsp;</th>
@@ -99,6 +101,7 @@
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
+                    <td>&nbsp;</td>
                   </tr>
                   <tr>
                     <th>&nbsp;</th>
@@ -106,6 +109,7 @@
                     <th>Encodec </th>
                     <th>&nbsp;</th>
                     <th>AudioDec</th>
+                    <th>DAC</th>
                     <th>APCodec </th>
                     <th>MDCTCodec</th>
                   </tr>
@@ -122,6 +126,9 @@
                         <source src="https://pb20000090.github.io/test/wav9kbps/AudioDec_p360_002_9kbps.wav" type="audio/wav">
                     </audio></td>
                     <td><audio controls="">
+                        <source src="https://pb20000090.github.io/test/mdctcodec-demo/dac/vctk-9kbps/p360_002.wav" type="audio/wav">
+                    </audio></td>
+                    <td><audio controls="">
                         <source src="https://pb20000090.github.io/test/wav9kbps/APCodec_p360_002_9kbps.wav" type="audio/wav">
                     </audio></td>
                     <td><audio controls="">
@@ -133,11 +140,12 @@
               <table>
                 <thead>
                   <tr>
-                    <th colspan="7"><div align="left">Example 1 (p360, male speaker, at 12 kbps) </div></th>
+                    <th colspan="8"><div align="left">Example 1 (p360, male speaker, at 12 kbps) </div></th>
                   </tr>
                   <tr>
                     <th>&nbsp;</th>
                     <th width="192">Raw Audio </th>
+                    <th width="192">&nbsp;</th>
                     <th width="192">&nbsp;</th>
                     <th width="192">&nbsp;</th>
                     <th width="192">&nbsp;</th>
@@ -156,6 +164,7 @@
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
+                    <td>&nbsp;</td>
                   </tr>
                   <tr>
                     <th>&nbsp;</th>
@@ -163,6 +172,7 @@
                     <th>Encodec </th>
                     <th>HiFi-Codec</th>
                     <th>AudioDec</th>
+                    <th>DAC</th>
                     <th>APCodec </th>
                     <th>MDCTCodec</th>
                   </tr>
@@ -181,6 +191,9 @@
                         <source src="https://pb20000090.github.io/test/wav12kbps/AudioDec_p360_002_12kbps.wav" type="audio/wav">
                     </audio></td>
                     <td><audio controls="">
+                        <source src="https://pb20000090.github.io/test/mdctcodec-demo/dac/vctk-12kbps/p360_002.wav" type="audio/wav">
+                    </audio></td>
+                    <td><audio controls="">
                         <source src="https://pb20000090.github.io/test/wav12kbps/APCodec_p360_002_12kbps.wav" type="audio/wav">
                     </audio></td>
                     <td><audio controls="">
@@ -192,10 +205,11 @@
               <table>
                 <thead>
                   <tr>
-                    <th colspan="7"><div align="left">Example 2 (p361, female speaker, at 6 kbps) </div></th>
+                    <th colspan="8"><div align="left">Example 2 (p361, female speaker, at 6 kbps) </div></th>
                   </tr>
                   <tr>
                     <th width="192">Raw Audio </th>
+                    <th width="192">&nbsp;</th>
                     <th width="192">&nbsp;</th>
                     <th width="192">&nbsp;</th>
                     <th width="192">&nbsp;</th>
@@ -215,20 +229,19 @@
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
+                    <td>&nbsp;</td>
                   </tr>
                   <tr>
-                    <th>Lyra</th>
                     <th>SoundStream </th>
                     <th>Encodec </th>
                     <th>HiFi-Codec</th>
                     <th>AudioDec</th>
+                    <th>DAC</th>
                     <th>APCodec</th>
                     <th>MDCTCodec</th>
                   </tr>
                   <tr>
-                    <td><audio controls="">
-                        <source src="https://pb20000090.github.io/test/wav/lyra_p361_105_decoded.wav" type="audio/wav">
-                    </audio></td>
+
                     <td><audio controls="">
                         <source src="https://pb20000090.github.io/test/wav/SS_p361_105_6kbps.wav" type="audio/wav">
                     </audio></td>
@@ -242,6 +255,9 @@
                         <source src="https://pb20000090.github.io/test/wav/AudioDec_p361_105_6kbps.wav" type="audio/wav">
                     </audio></td>
                     <td><audio controls="">
+                        <source src="https://pb20000090.github.io/test/mdctcodec-demo/dac/vctk-6kbps/p361_105.wav" type="audio/wav">
+                    </audio></td>
+                    <td><audio controls="">
                         <source src="https://pb20000090.github.io/test/wav/APCodec_p361_105_6kbps.wav" type="audio/wav">
                     </audio></td>
                     <td><audio controls="">
@@ -253,13 +269,14 @@
               <table>
                 <thead>
                   <tr>
-                    <th colspan="7"><div align="left">Example 2 (p361, female speaker, at 9 kbps) </div></th>
+                    <th colspan="8"><div align="left">Example 2 (p361, female speaker, at 9 kbps) </div></th>
                   </tr>
                   <tr>
                     <th>&nbsp;</th>
                     <th width="192">Raw Audio </th>
                     <th width="192">&nbsp;</th>
                     <th>&nbsp;</th>
+                    <th width="192">&nbsp;</th>
                     <th width="192">&nbsp;</th>
                     <th width="192">&nbsp;</th>
                     <th width="192">&nbsp;</th>
@@ -276,6 +293,7 @@
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
+                    <td>&nbsp;</td>
                   </tr>
                   <tr>
                     <th>&nbsp;</th>
@@ -283,6 +301,7 @@
                     <th>Encodec </th>
                     <th>&nbsp;</th>
                     <th>AudioDec</th>
+                    <th>DAC</th>
                     <th>APCodec </th>
                     <th>MDCTCodec</th>
                   </tr>
@@ -299,6 +318,9 @@
                         <source src="https://pb20000090.github.io/test/wav9kbps/AudioDec_p361_105_9kbps.wav" type="audio/wav">
                     </audio></td>
                     <td><audio controls="">
+                        <source src="https://pb20000090.github.io/test/mdctcodec-demo/dac/vctk-9kbps/p361_105.wav" type="audio/wav">
+                    </audio></td>
+                    <td><audio controls="">
                         <source src="https://pb20000090.github.io/test/wav9kbps/APCodec_p361_105_9kbps.wav" type="audio/wav">
                     </audio></td>
                     <td><audio controls="">
@@ -310,11 +332,12 @@
               <table>
                 <thead>
                   <tr>
-                    <th colspan="7"><div align="left">Example 2 (p361, female speaker, at 12 kbps) </div></th>
+                    <th colspan="8"><div align="left">Example 2 (p361, female speaker, at 12 kbps) </div></th>
                   </tr>
                   <tr>
                     <th>&nbsp;</th>
                     <th width="192">Raw Audio </th>
+                    <th width="192">&nbsp;</th>
                     <th width="192">&nbsp;</th>
                     <th width="192">&nbsp;</th>
                     <th width="192">&nbsp;</th>
@@ -333,6 +356,7 @@
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
+                    <td>&nbsp;</td>
                   </tr>
                   <tr>
                     <th>&nbsp;</th>
@@ -340,6 +364,7 @@
                     <th>Encodec </th>
                     <th>HiFi-Codec</th>
                     <th>AudioDec</th>
+                    <th>DAC</th>
                     <th>APCodec </th>
                     <th>MDCTCodec</th>
                   </tr>
@@ -358,6 +383,9 @@
                         <source src="https://pb20000090.github.io/test/wav12kbps/AudioDec_p361_105_12kbps.wav" type="audio/wav">
                     </audio></td>
                     <td><audio controls="">
+                        <source src="https://pb20000090.github.io/test/mdctcodec-demo/dac/vctk-12kbps/p361_105.wav" type="audio/wav">
+                    </audio></td>
+                    <td><audio controls="">
                         <source src="https://pb20000090.github.io/test/wav12kbps/APCodec_p361_105_12kbps.wav" type="audio/wav">
                     </audio></td>
                     <td><audio controls="">
@@ -369,10 +397,11 @@
               <table>
                 <thead>
                   <tr>
-                    <th colspan="7"><div align="left">Example 3 (p364, male speaker, at 6 kbps) </div></th>
+                    <th colspan="8"><div align="left">Example 3 (p364, male speaker, at 6 kbps) </div></th>
                   </tr>
                   <tr>
                     <th width="192">Raw Audio </th>
+                    <th width="192">&nbsp;</th>
                     <th width="192">&nbsp;</th>
                     <th width="192">&nbsp;</th>
                     <th width="192">&nbsp;</th>
@@ -392,20 +421,19 @@
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
+                    <td>&nbsp;</td>
                   </tr>
                   <tr>
-                    <th>Lyra</th>
                     <th>SoundStream </th>
                     <th>Encodec </th>
                     <th>HiFi-Codec</th>
                     <th>AudioDec</th>
+                    <th>DAC</th>
                     <th>APCodec</th>
                     <th>MDCTCodec</th>
                   </tr>
                   <tr>
-                    <td><audio controls="">
-                        <source src="https://pb20000090.github.io/test/wav/lyra_p364_277_decoded.wav" type="audio/wav">
-                    </audio></td>
+
                     <td><audio controls="">
                         <source src="https://pb20000090.github.io/test/wav/SS_p364_277_6kbps.wav" type="audio/wav">
                     </audio></td>
@@ -419,6 +447,9 @@
                         <source src="https://pb20000090.github.io/test/wav/AudioDec_p364_277_6kbps.wav" type="audio/wav">
                     </audio></td>
                     <td><audio controls="">
+                        <source src="https://pb20000090.github.io/test/mdctcodec-demo/dac/vctk-6kbps/p364_277.wav" type="audio/wav">
+                    </audio></td>
+                    <td><audio controls="">
                         <source src="https://pb20000090.github.io/test/wav/APCodec_p364_277_6kbps.wav" type="audio/wav">
                     </audio></td>
                     <td><audio controls="">
@@ -430,13 +461,14 @@
               <table>
                 <thead>
                   <tr>
-                    <th colspan="7"><div align="left">Example 3 (p364, male speaker, at 9 kbps) </div></th>
+                    <th colspan="8"><div align="left">Example 3 (p364, male speaker, at 9 kbps) </div></th>
                   </tr>
                   <tr>
                     <th>&nbsp;</th>
                     <th width="192">Raw Audio </th>
                     <th width="192">&nbsp;</th>
                     <th>&nbsp;</th>
+                    <th width="192">&nbsp;</th>
                     <th width="192">&nbsp;</th>
                     <th width="192">&nbsp;</th>
                     <th width="192">&nbsp;</th>
@@ -453,6 +485,7 @@
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
+                    <td>&nbsp;</td>
                   </tr>
                   <tr>
                     <th>&nbsp;</th>
@@ -460,6 +493,7 @@
                     <th>Encodec </th>
                     <th>&nbsp;</th>
                     <th>AudioDec</th>
+                    <th>DAC</th>
                     <th>APCodec </th>
                     <th>MDCTCodec</th>
                   </tr>
@@ -476,6 +510,9 @@
                         <source src="https://pb20000090.github.io/test/wav9kbps/AudioDec_p364_277_9kbps.wav" type="audio/wav">
                     </audio></td>
                     <td><audio controls="">
+                        <source src="https://pb20000090.github.io/test/mdctcodec-demo/dac/vctk-9kbps/p364_277.wav" type="audio/wav">
+                    </audio></td>
+                    <td><audio controls="">
                         <source src="https://pb20000090.github.io/test/wav9kbps/APCodec_p364_277_9kbps.wav" type="audio/wav">
                     </audio></td>
                     <td><audio controls="">
@@ -487,11 +524,12 @@
               <table>
                 <thead>
                   <tr>
-                    <th colspan="7"><div align="left">Example 3 (p364, male speaker, at 12 kbps) </div></th>
+                    <th colspan="8"><div align="left">Example 3 (p364, male speaker, at 12 kbps) </div></th>
                   </tr>
                   <tr>
                     <th>&nbsp;</th>
                     <th width="192">Raw Audio </th>
+                    <th width="192">&nbsp;</th>
                     <th width="192">&nbsp;</th>
                     <th width="192">&nbsp;</th>
                     <th width="192">&nbsp;</th>
@@ -510,6 +548,7 @@
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
+                    <td>&nbsp;</td>
                   </tr>
                   <tr>
                     <th>&nbsp;</th>
@@ -517,6 +556,7 @@
                     <th>Encodec </th>
                     <th>HiFi-Codec</th>
                     <th>AudioDec</th>
+                    <th>DAC</th>
                     <th>APCodec </th>
                     <th>MDCTCodec</th>
                   </tr>
@@ -535,6 +575,9 @@
                         <source src="https://pb20000090.github.io/test/wav12kbps/AudioDec_p364_277_12kbps.wav" type="audio/wav">
                     </audio></td>
                     <td><audio controls="">
+                        <source src="https://pb20000090.github.io/test/mdctcodec-demo/dac/vctk-12kbps/p364_277.wav" type="audio/wav">
+                    </audio></td>
+                    <td><audio controls="">
                         <source src="https://pb20000090.github.io/test/wav12kbps/APCodec_p364_277_12kbps.wav" type="audio/wav">
                     </audio></td>
                     <td><audio controls="">
@@ -546,10 +589,11 @@
               <table>
                 <thead>
                   <tr>
-                    <th colspan="7"><div align="left">Example 4 (s5, female speaker, at 6 kbps) </div></th>
+                    <th colspan="8"><div align="left">Example 4 (s5, female speaker, at 6 kbps) </div></th>
                   </tr>
                   <tr>
                     <th width="192">Raw Audio </th>
+                    <th width="192">&nbsp;</th>
                     <th width="192">&nbsp;</th>
                     <th width="192">&nbsp;</th>
                     <th width="192">&nbsp;</th>
@@ -569,20 +613,20 @@
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
+                    <td>&nbsp;</td>
                   </tr>
                   <tr>
-                    <th>Lyra</th>
+
                     <th>SoundStream </th>
                     <th>Encodec </th>
                     <th>HiFi-Codec</th>
                     <th>AudioDec</th>
+                    <th>DAC</th>
                     <th>APCodec</th>
                     <th>MDCTCodec</th>
                   </tr>
                   <tr>
-                    <td><audio controls="">
-                        <source src="https://pb20000090.github.io/test/wav/lyra_s5_026_decoded.wav" type="audio/wav">
-                    </audio></td>
+
                     <td><audio controls="">
                         <source src="https://pb20000090.github.io/test/wav/SS_s5_026_6kbps.wav" type="audio/wav">
                     </audio></td>
@@ -596,6 +640,9 @@
                         <source src="https://pb20000090.github.io/test/wav/AudioDec_s5_026_6kbps.wav" type="audio/wav">
                     </audio></td>
                     <td><audio controls="">
+                        <source src="https://pb20000090.github.io/test/mdctcodec-demo/dac/vctk-6kbps/s5_026.wav" type="audio/wav">
+                    </audio></td>
+                    <td><audio controls="">
                         <source src="https://pb20000090.github.io/test/wav/APCodec_s5_026_6kbps.wav" type="audio/wav">
                     </audio></td>
                     <td><audio controls="">
@@ -607,13 +654,14 @@
               <table>
                 <thead>
                   <tr>
-                    <th colspan="7"><div align="left">Example 4 (s5, female speaker, at 9 kbps) </div></th>
+                    <th colspan="8"><div align="left">Example 4 (s5, female speaker, at 9 kbps) </div></th>
                   </tr>
                   <tr>
                     <th>&nbsp;</th>
                     <th width="192">Raw Audio </th>
                     <th width="192">&nbsp;</th>
                     <th>&nbsp;</th>
+                    <th width="192">&nbsp;</th>
                     <th width="192">&nbsp;</th>
                     <th width="192">&nbsp;</th>
                     <th width="192">&nbsp;</th>
@@ -630,6 +678,7 @@
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
+                    <td>&nbsp;</td>
                   </tr>
                   <tr>
                     <th>&nbsp;</th>
@@ -637,6 +686,7 @@
                     <th>Encodec </th>
                     <th>&nbsp;</th>
                     <th>AudioDec</th>
+                    <th>DAC</th>
                     <th>APCodec </th>
                     <th>MDCTCodec</th>
                   </tr>
@@ -653,6 +703,9 @@
                         <source src="https://pb20000090.github.io/test/wav9kbps/AudioDec_s5_026_9kbps.wav" type="audio/wav">
                     </audio></td>
                     <td><audio controls="">
+                        <source src="https://pb20000090.github.io/test/mdctcodec-demo/dac/vctk-9kbps/s5_026.wav" type="audio/wav">
+                    </audio></td>
+                    <td><audio controls="">
                         <source src="https://pb20000090.github.io/test/wav9kbps/APCodec_s5_026_9kbps.wav" type="audio/wav">
                     </audio></td>
                     <td><audio controls="">
@@ -664,11 +717,12 @@
               <table>
                 <thead>
                   <tr>
-                    <th colspan="7"><div align="left">Example 4 (s5, female speaker, at 12 kbps) </div></th>
+                    <th colspan="8"><div align="left">Example 4 (s5, female speaker, at 12 kbps) </div></th>
                   </tr>
                   <tr>
                     <th>&nbsp;</th>
                     <th width="192">Raw Audio </th>
+                    <th width="192">&nbsp;</th>
                     <th width="192">&nbsp;</th>
                     <th width="192">&nbsp;</th>
                     <th width="192">&nbsp;</th>
@@ -687,6 +741,7 @@
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
+                    <td>&nbsp;</td>
                   </tr>
                   <tr>
                     <th>&nbsp;</th>
@@ -694,6 +749,7 @@
                     <th>Encodec </th>
                     <th>HiFi-Codec</th>
                     <th>AudioDec</th>
+                    <th>DAC</th>
                     <th>APCodec </th>
                     <th>MDCTCodec</th>
                   </tr>
@@ -712,6 +768,9 @@
                         <source src="https://pb20000090.github.io/test/wav12kbps/AudioDec_s5_026_12kbps.wav" type="audio/wav">
                     </audio></td>
                     <td><audio controls="">
+                        <source src="https://pb20000090.github.io/test/mdctcodec-demo/dac/vctk-12kbps/s5_026.wav" type="audio/wav">
+                    </audio></td>
+                    <td><audio controls="">
                         <source src="https://pb20000090.github.io/test/wav12kbps/APCodec_s5_026_12kbps.wav" type="audio/wav">
                     </audio></td>
                     <td><audio controls="">
@@ -720,7 +779,7 @@
                   </tr>
                 </tbody>
               </table>
-    <h2>Section 3.4  Component Analysis</h2>
+    <h2>Section 3.4 Ablation Studies</h2>
               <p><em><strong>(The sampling rate is 48 kHz)</strong></em><a></a> </p>
               <table>
                 <thead>
@@ -918,8 +977,8 @@
                   </tr>
                 </tbody>
               </table>
-    <h2>Section 3.5 Universality Validation</h2>
-    <p><em><strong>(Results on Opencpop dataset, 48 kHz, 6kbps)</strong></em><a></a> </p>
+    <h2>Section 3.5 Versatility Validation</h2>
+    <p><em><strong>(Results on VCTK dataset, 48 kHz, 6kbps)</strong></em><a></a> </p>
     <table>
       <thead>
         <tr>
@@ -929,36 +988,34 @@
           <th width="192">Raw Audio </th>
           <th width="192">&nbsp;</th>
           <th width="192">&nbsp;</th>
-          <th width="192">&nbsp;</th>
+
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td><audio controls="">
-              <source src="https://pb20000090.github.io/test/opencpop/raw_2091003368.wav" type="audio/wav">
-          </audio></td>
+                    <td><audio controls="">
+                        <source src="https://pb20000090.github.io/test/mdctcodec-demo/p363_015.wav" type="audio/wav">
+                    </audio></td>
           <td>&nbsp;</td>
-          <td></td>
+
           <td>&nbsp;</td>
         </tr>
         <tr>
-          <th>HiFi-Codec</th>
-          <th>AudioDec</th>
+
+          <th>DAC</th>
           <th>APCodec </th>
           <th>MDCTCodec</th>
         </tr>
         <tr>
+
           <td><audio controls="">
-              <source src="https://pb20000090.github.io/test/opencpop/HiFi_2091003368.wav" type="audio/wav">
+              <source src="https://pb20000090.github.io/test/mdctcodec-demo/dac/vctk/p363_015.wav" type="audio/wav">
           </audio></td>
           <td><audio controls="">
-              <source src="https://pb20000090.github.io/test/opencpop/AudioDec_2091003368.wav" type="audio/wav">
+              <source src="https://pb20000090.github.io/test/mdctcodec-demo/apcodec/vctk/p363_015.wav" type="audio/wav">
           </audio></td>
           <td><audio controls="">
-              <source src="https://pb20000090.github.io/test/opencpop/APCodec_2091003368.wav" type="audio/wav">
-          </audio></td>
-          <td><audio controls="">
-              <source src="https://pb20000090.github.io/test/opencpop/MDCTCodec_2091003368.wav" type="audio/wav">
+              <source src="https://pb20000090.github.io/test/mdctcodec-demo/mdct/vctk/p363_015.wav" type="audio/wav">
           </audio></td>
         </tr>
       </tbody>
@@ -972,36 +1029,199 @@
           <th width="192">Raw Audio </th>
           <th width="192">&nbsp;</th>
           <th width="192">&nbsp;</th>
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><audio controls="">
+              <source src="https://pb20000090.github.io/test/mdctcodec-demo/p376_371.wav" type="audio/wav">
+          </audio></td>
+          <td>&nbsp;</td>
+
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+
+          <th>DAC</th>
+          <th>APCodec </th>
+          <th>MDCTCodec</th>
+        </tr>
+        <tr>
+
+          <td><audio controls="">
+              <source src="https://pb20000090.github.io/test/mdctcodec-demo/dac/vctk/p376_371.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://pb20000090.github.io/test/mdctcodec-demo/apcodec/vctk/p376_371.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://pb20000090.github.io/test/mdctcodec-demo/mdct/vctk/p376_371.wav" type="audio/wav">
+          </audio></td>
+        </tr>
+      </tbody>
+        </table>
+    <p><em><strong>(Results on CommonVoice dataset, 48 kHz, 6kbps)</strong></em><a></a> </p>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="6"><div align="left">Example 1 </div></th>
+        </tr>
+        <tr>
+          <th width="192">Raw Audio </th>
+          <th width="192">&nbsp;</th>
+          <th width="192">&nbsp;</th>
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><audio controls="">
+              <source src="https://pb20000090.github.io/test/mdctcodec-demo/common_voice_en_18570129.wav" type="audio/wav">
+          </audio></td>
+          <td>&nbsp;</td>
+          <td></td>
+        </tr>
+        <tr>
+
+          <th>DAC</th>
+          <th>APCodec </th>
+          <th>MDCTCodec</th>
+        </tr>
+        <tr>
+
+          <td><audio controls="">
+              <source src="https://pb20000090.github.io/test/mdctcodec-demo/dac/commonvoice/common_voice_en_18570129.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://pb20000090.github.io/test/mdctcodec-demo/apcodec/commonvoice/common_voice_en_18570129.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://pb20000090.github.io/test/mdctcodec-demo/mdct/commonvoice/common_voice_en_18570129.wav" type="audio/wav">
+          </audio></td>
+        </tr>
+      </tbody>
+    </table>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="6"><div align="left">Example 2 </div></th>
+        </tr>
+        <tr>
+          <th width="192">Raw Audio </th>
+          <th width="192">&nbsp;</th>
+          <th width="192">&nbsp;</th>
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><audio controls="">
+              <source src="https://pb20000090.github.io/test/mdctcodec-demo/common_voice_en_2925.wav" type="audio/wav">
+          </audio></td>
+
+          <td></td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+
+          <th>DAC</th>
+          <th>APCodec </th>
+          <th>MDCTCodec</th>
+        </tr>
+        <tr>
+
+          <td><audio controls="">
+              <source src="https://pb20000090.github.io/test/mdctcodec-demo/dac/commonvoice/common_voice_en_2925.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://pb20000090.github.io/test/mdctcodec-demo/apcodec/commonvoice/common_voice_en_2925.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://pb20000090.github.io/test/mdctcodec-demo/mdct/commonvoice/common_voice_en_2925.wav" type="audio/wav">
+          </audio></td>
+        </tr>
+      </tbody>
+    </table>
+    <p><em><strong>(Results on Opencpop dataset, 48 kHz, 6kbps)</strong></em><a></a> </p>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="6"><div align="left">Example 1 </div></th>
+        </tr>
+        <tr>
+          <th width="192">Raw Audio </th>
+          <th width="192">&nbsp;</th>
+          <th width="192">&nbsp;</th>
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><audio controls="">
+              <source src="https://pb20000090.github.io/test/opencpop/raw_2091003368.wav" type="audio/wav">
+          </audio></td>
+          <td>&nbsp;</td>
+          <td></td>
+
+        </tr>
+        <tr>
+
+          <th>DAC</th>
+          <th>APCodec </th>
+          <th>MDCTCodec</th>
+        </tr>
+        <tr>
+
+          <td><audio controls="">
+              <source src="https://pb20000090.github.io/test/mdctcodec-demo/dac/opencpop/2091003368.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://pb20000090.github.io/test/mdctcodec-demo/apcodec/opencpop/2091003368.wav" type="audio/wav">
+          </audio></td>
+          <td><audio controls="">
+              <source src="https://pb20000090.github.io/test/mdctcodec-demo/mdct/opencpop/2091003368.wav" type="audio/wav">
+          </audio></td>
+        </tr>
+      </tbody>
+    </table>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="6"><div align="left">Example 2 </div></th>
+        </tr>
+        <tr>
+          <th width="192">Raw Audio </th>
+          <th width="192">&nbsp;</th>
+
           <th width="192">&nbsp;</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <td><audio controls="">
-              <source src="https://pb20000090.github.io/test/opencpop/raw_2096003587.wav" type="audio/wav">
+              <source src="https://pb20000090.github.io/test/mdctcodec-demo/2099003692.wav" type="audio/wav">
           </audio></td>
           <td>&nbsp;</td>
           <td></td>
-          <td>&nbsp;</td>
+
         </tr>
         <tr>
-          <th>HiFi-Codec</th>
-          <th>AudioDec</th>
+
+          <th>DAC</th>
           <th>APCodec </th>
           <th>MDCTCodec</th>
         </tr>
         <tr>
+
           <td><audio controls="">
-              <source src="https://pb20000090.github.io/test/opencpop/HiFi_2096003587.wav" type="audio/wav">
+              <source src="https://pb20000090.github.io/test/mdctcodec-demo/dac/opencpop/2099003692.wav" type="audio/wav">
           </audio></td>
           <td><audio controls="">
-              <source src="https://pb20000090.github.io/test/opencpop/AudioDec_2096003587.wav" type="audio/wav">
+              <source src="https://pb20000090.github.io/test/mdctcodec-demo/apcodec/opencpop/2099003692.wav" type="audio/wav">
           </audio></td>
           <td><audio controls="">
-              <source src="https://pb20000090.github.io/test/opencpop/APCodec_2096003587.wav" type="audio/wav">
-          </audio></td>
-          <td><audio controls="">
-              <source src="https://pb20000090.github.io/test/opencpop/MDCTCodec_2096003587.wav" type="audio/wav">
+              <source src="https://pb20000090.github.io/test/mdctcodec-demo/mdct/opencpop/2099003692.wav" type="audio/wav">
           </audio></td>
         </tr>
       </tbody>
@@ -1015,7 +1235,7 @@
         <tr>
           <th width="192">Raw Audio </th>
           <th width="192">&nbsp;</th>
-          <th width="192">&nbsp;</th>
+
           <th width="192">&nbsp;</th>
         </tr>
       </thead>
@@ -1026,26 +1246,24 @@
           </audio></td>
           <td>&nbsp;</td>
           <td></td>
-          <td>&nbsp;</td>
+
         </tr>
         <tr>
-          <th>HiFi-Codec</th>
-          <th>AudioDec</th>
+
+          <th>DAC</th>
           <th>APCodec </th>
           <th>MDCTCodec</th>
         </tr>
         <tr>
+
           <td><audio controls="">
-              <source src="https://pb20000090.github.io/test/FSD50K/HiFi_361212.wav" type="audio/wav">
+              <source src="https://pb20000090.github.io/test/mdctcodec-demo/dac/fsd50k/361212.wav" type="audio/wav">
           </audio></td>
           <td><audio controls="">
-              <source src="https://pb20000090.github.io/test/FSD50K/AudioDec_361212.wav" type="audio/wav">
+              <source src="https://pb20000090.github.io/test/mdctcodec-demo/apcodec/fsd50k/361212.wav" type="audio/wav">
           </audio></td>
           <td><audio controls="">
-              <source src="https://pb20000090.github.io/test/FSD50K/APCodec_361212.wav" type="audio/wav">
-          </audio></td>
-          <td><audio controls="">
-              <source src="https://pb20000090.github.io/test/FSD50K/MDCTCodec_361212.wav" type="audio/wav">
+              <source src="https://pb20000090.github.io/test/mdctcodec-demo/mdct/fsd50k/361212.wav" type="audio/wav">
           </audio></td>
         </tr>
       </tbody>
@@ -1058,7 +1276,7 @@
         <tr>
           <th width="192">Raw Audio </th>
           <th width="192">&nbsp;</th>
-          <th width="192">&nbsp;</th>
+
           <th width="192">&nbsp;</th>
         </tr>
       </thead>
@@ -1068,31 +1286,29 @@
               <source src="https://pb20000090.github.io/test/FSD50K/raw_361269.wav" type="audio/wav">
           </audio></td>
           <td>&nbsp;</td>
-          <td></td>
           <td>&nbsp;</td>
         </tr>
         <tr>
-          <th>HiFi-Codec</th>
-          <th>AudioDec</th>
+
+          <th>DAC</th>
           <th>APCodec </th>
           <th>MDCTCodec</th>
         </tr>
         <tr>
+
           <td><audio controls="">
-              <source src="https://pb20000090.github.io/test/FSD50K/HiFi_361269.wav" type="audio/wav">
+              <source src="https://pb20000090.github.io/test/mdctcodec-demo/dac/fsd50k/361269.wav" type="audio/wav">
           </audio></td>
           <td><audio controls="">
-              <source src="https://pb20000090.github.io/test/FSD50K/AudioDec_361269.wav" type="audio/wav">
+              <source src="https://pb20000090.github.io/test/mdctcodec-demo/apcodec/fsd50k/361269.wav" type="audio/wav">
           </audio></td>
           <td><audio controls="">
-              <source src="https://pb20000090.github.io/test/FSD50K/APCodec_361269.wav" type="audio/wav">
-          </audio></td>
-          <td><audio controls="">
-              <source src="https://pb20000090.github.io/test/FSD50K/MDCTCodec_361269.wav" type="audio/wav">
+              <source src="https://pb20000090.github.io/test/mdctcodec-demo/mdct/fsd50k/361269.wav" type="audio/wav">
           </audio></td>
         </tr>
       </tbody>
     </table>
+    <p>&nbsp;</p>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
